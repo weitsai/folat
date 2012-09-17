@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.flota"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/flota"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+
+        <!-- 合約 -->
+        <activity android:name=".Contract" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 登入 -->
+        <activity android:name=".Login" >
+        </activity>
+
+        <!-- 客戶資料 -->
+        <activity android:name=".UserList" >
+        </activity>
+
+        <!-- 表單 -->
+        <activity android:name=".Bill" >
+        </activity>
+
+        <!-- 工作單內容 -->
+        <activity android:name=".BillContent" >
+        </activity>
+
+        <!-- 附件 -->
+        <activity android:name=".Annex" >
+        </activity>
+
+        <!-- 請假單簽核 -->
+        <activity android:name=".BillContentLeave" >
+        </activity>
+
+        <!-- 尾牙日期 -->
+        <activity android:name=".BillDate" >
+        </activity>
+
+        <!-- 尾牙日期 -->
+        <activity
+            android:name=".BillContentLeaveJoin"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

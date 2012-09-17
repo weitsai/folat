@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="accunt">帳　號</string>
+    <string name="app_name">float</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="sign_off">行動簽核</string>
+    <string name="login">登入</string>
+    <string name="passwd">密　碼</string>
+    <string name="mail">service@streams.com.tw</string>
+	<string name="elevator">電梯編號</string>
+	<string name="type">類型</string>
+    <!-- XML -->
+    <string name="contract_content">float是西川系統所提供的行動簽核解決方案，係整合企業的流程管理系統(Workflow)，將各種流程表單主動推播(Push)至手機，並且在手機上提供簽核、即時更新、以及離線瀏覽的功能。\n\n使用時，您的電信業者可能會向您收取額外的資料傳輸費，您確定要繼續嗎？\n</string>
+    <string name="login_content">預設之帳號僅能瀏覽表單，如果您想要親自體驗行動簽核的功能，請將申請測試的資料，包含：公司名稱、聯絡人、聯絡電話、以及目前使用的流程管理系統，傳送至客服電子信箱:我們將會立即提供測試用的帳號及密碼。</string>
+
+</resources>
